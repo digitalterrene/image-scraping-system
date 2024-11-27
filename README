@@ -1,4 +1,3 @@
-````markdown
 # 🌟 Comprehensive Multi-Service System
 
 This project features a suite of interconnected services designed to simplify operations involving **database management**, **dynamic content handling**, and **third-party integrations** like **WordPress**. Powered by **FastAPI**, the system offers robust APIs for scalable and efficient performance.
@@ -7,17 +6,26 @@ This project features a suite of interconnected services designed to simplify op
 
 ## 📑 Table of Contents
 
-1. [Servers Overview](#servers-overview)
-2. [Features](#features)
-3. [Setup and Installation](#setup-and-installation)
-4. [API Endpoints](#api-endpoints)
-   - [Dynamic Database Saver](#dynamic-database-saver)
-   - [Dynamic Image Saver](#dynamic-image-saver)
-5. [Database Configuration](#database-configuration)
-6. [WordPress Integration](#wordpress-integration)
-7. [Folder Structure](#folder-structure)
-8. [Future Enhancements](#future-enhancements)
-9. [Credits](#credits)
+- [🌟 Comprehensive Multi-Service System](#-comprehensive-multi-service-system)
+  - [📑 Table of Contents](#-table-of-contents)
+  - [1. 🚀 Servers Overview](#1--servers-overview)
+    - [🔹 Dynamic Database Saver](#-dynamic-database-saver)
+    - [🔹 Dynamic Image Saver](#-dynamic-image-saver)
+    - [🔹 Additional Planned Services](#-additional-planned-services)
+  - [2. ✨ Features](#2--features)
+  - [3. ⚙️ Setup and Installation](#3-️-setup-and-installation)
+    - [Prerequisites](#prerequisites)
+    - [Installation Steps](#installation-steps)
+  - [4. 🔗 API Endpoints](#4--api-endpoints)
+    - [🔹 Dynamic Database Saver](#-dynamic-database-saver-1)
+    - [🔹 Dynamic Image Saver](#-dynamic-image-saver-1)
+  - [5. 🗄️ Database Configuration](#5-️-database-configuration)
+  - [6. 🌐 WordPress Integration](#6--wordpress-integration)
+    - [Configuration Steps:](#configuration-steps)
+    - [Supported Formats:](#supported-formats)
+  - [7. 📂 Folder Structure](#7--folder-structure)
+  - [8. 🔮 Future Enhancements](#8--future-enhancements)
+  - [9. 🙌 Credits](#9--credits)
 
 ---
 
@@ -74,11 +82,11 @@ The modular design enables adding new services, such as:
 ### Installation Steps
 
 1. **Clone the Repository**
+
    ```bash
    git clone https://github.com/your-repo/multi-service-system.git
    cd multi-service-system
    ```
-````
 
 2. **Install Dependencies**
 
@@ -213,7 +221,3 @@ project-root/
 
 💡 _Feel free to contribute, suggest features, or report issues!_  
 📧 Contact: [Your Email]
-
-```
-
-```
