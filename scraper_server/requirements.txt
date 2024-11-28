@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+httpx
+aiofiles
+pillow
+beautifulsoup4
+pymysql
+sqlalchemy
+requests
+python-multipart

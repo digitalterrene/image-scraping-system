@@ -1,10 +1,39 @@
+# Installation command
+# pip install -r requirements.txt
+
+# FastAPI and server-related libraries
 fastapi
 uvicorn
+
+# HTTP and file handling
 httpx
 aiofiles
+
+# Image processing
 pillow
+
+# Web scraping
 beautifulsoup4
+requests
+
+# Database
 pymysql
 sqlalchemy
-requests
+
+# Multipart/form-data handling
 python-multipart
+
+# JSON and serialization (likely needed for dynamic data handling)
+orjson
+
+# Dependency Injection (commonly used with FastAPI)
+injector
+
+# Caching (optional, for dynamic or image search optimization)
+aiocache
+
+# Optional: Asynchronous task queues (if needed for background tasks in dynamic image generation or scraping)
+celery[redis]
+
+# Others
+dotenv

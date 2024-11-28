@@ -98,7 +98,7 @@ The modular design enables adding new services, such as:
    Start servers using `uvicorn`. Example for Dynamic Image Saver:
 
    ```bash
-   uvicorn dynamic_image_saver:app --reload
+   uvicorn main:main_app --reload
    ```
 
 4. **Access API Documentation**  
