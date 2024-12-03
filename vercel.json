@@ -2,38 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "scraper_server/main.py",
-      "use": "@vercel/python"
-    },
-    {
-      "src": "dynamic_image_server/main.py",
-      "use": "@vercel/python"
-    },
-    {
-      "src": "image_search_server/main.py",
-      "use": "@vercel/python"
-    },
-    {
-      "src": "converter_server/main.py",
+      "src": "main.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
-      "src": "/scraper_server/(.*)",
-      "dest": "scraper_server/main.py"
-    },
-    {
-      "src": "/image_search_server/(.*)",
-      "dest": "image_search_server/main.py"
-    },
-    {
-      "src": "/dynamic_image_server/(.*)",
-      "dest": "dynamic_image_server/main.py"
-    },
-    {
-      "src": "/converter_server/(.*)",
-      "dest": "converter_server/main.py"
+      "src": "/(.*)",
+      "dest": "main.py"
     }
   ]
 }
