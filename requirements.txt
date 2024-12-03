@@ -36,4 +36,4 @@ aiocache
 celery[redis]
 
 # Others
-dotenv
+mangum
